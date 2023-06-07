@@ -1,5 +1,4 @@
 <?php 
-   // echo "<h1>" .  . "</h1>";
     include 'config.php';
     $page = basename($_SERVER['PHP_SELF']);
     switch ($page) {
