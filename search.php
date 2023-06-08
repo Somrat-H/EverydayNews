@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <!-- post-container -->
+     
         <div class="post-container">
           <?php 
           include 'config.php';
@@ -64,7 +64,7 @@
               echo "<h2> No record found. </h2>";
             }
 
-                // pagination starts
+            
             $sql1 = "SELECT * from post WHERE post.title LIKE '%{$search_term}'";
             $result1 = mysqli_query($conn,$sql1) or die("Query Failed");
             if (mysqli_num_rows($result1) >0) {
@@ -92,7 +92,7 @@
             echo "<h2>No Record Found.</h2>";
           }
           ?>                    
-        </div><!-- /post-container -->
+        </div>
       </div>
       <?php include 'sidebar.php'; ?>
     </div>

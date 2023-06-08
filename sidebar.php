@@ -1,5 +1,5 @@
 <div id="sidebar" class="col-md-4">
-  <!-- search box -->
+
   <div class="search-box-container">
     <h4>Search</h4>
     <form class="search-post" action="search.php" method ="GET">
@@ -11,8 +11,7 @@
       </div>
     </form>
   </div>
-  <!-- /search box -->
-  <!-- recent posts box -->
+ 
   <div class="recent-post-container">
     <h4>Recent Posts</h4>
     <?php 
@@ -49,5 +48,4 @@
 }
    ?>
    </div>
-  <!-- /recent posts box -->
 </div>

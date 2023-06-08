@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <!-- post-container -->
+        
         <div class="post-container">
           <?php 
           include 'config.php';

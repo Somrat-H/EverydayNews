@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <!-- post-container -->
+  
         <div class="post-container">
           <?php
           include 'config.php';
@@ -68,7 +68,7 @@
               echo "<h2> No record found. </h2>";
             }
 
-// pagination starts
+
 
             if (mysqli_num_rows($result1) >0) {
               $total_records = $row1['post'];
@@ -95,7 +95,7 @@
             echo "<h2>No Record Found.</h2>";
           }
           ?>                    
-        </div><!-- /post-container -->
+        </div>
       </div>
       <?php include 'sidebar.php'; ?>
     </div>
